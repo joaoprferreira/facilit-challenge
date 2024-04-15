@@ -1,6 +1,6 @@
 import { Tshirt } from '@/types/TshirtTypes'
 
-export const tshirts: Tshirt = [
+export const Tshirts: Tshirt[] = [
   {
     id: 1,
     name: 'Blue T-shirt',
