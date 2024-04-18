@@ -1,11 +1,28 @@
 import { Tshirt } from '@/types/TshirtTypes'
 
-export const Tshirts: Tshirt[] = [
+import Brown from '@/assets/brown.jpeg'
+import Blue from '@/assets/blue.jpeg'
+import Cyan from '@/assets/cyan.jpeg'
+import Gray from '@/assets/gray.jpg'
+import Lime from '@/assets/lime.jpg'
+import Purple from '@/assets/purple.jpeg'
+import Olive from '@/assets/olive.jpeg'
+import Orange from '@/assets/orange.jpeg'
+import Pink from '@/assets/pink.jpg'
+import Maroon from '@/assets/marron.jpeg'
+import Navy from '@/assets/plain-t-shirt.jpeg'
+import Red from '@/assets/red.jpeg'
+import Green from '@/assets/gree.jpg'
+import Yellow from '@/assets/yellow.jpeg'
+import Teal from '@/assets/teal.jpeg'
+import Magenta from '@/assets/magenta.jpeg'
+
+export const TshirtsData: Tshirt[] = [
   {
     id: 1,
     name: 'Blue T-shirt',
     price: 15.99,
-    image: '/blue-tshirt.jpg',
+    image: Blue,
     sizes: ['S', 'M', 'L', 'XL'],
     colors: ['Blue', 'White', 'Black'],
   },
@@ -13,7 +30,7 @@ export const Tshirts: Tshirt[] = [
     id: 2,
     name: 'Red T-shirt',
     price: 12.99,
-    image: '/red-tshirt.jpg',
+    image: Red,
     sizes: ['S', 'M', 'L'],
     colors: ['Red', 'White'],
   },
@@ -21,7 +38,7 @@ export const Tshirts: Tshirt[] = [
     id: 3,
     name: 'Green T-shirt',
     price: 18.99,
-    image: '/green-tshirt.jpg',
+    image: Green,
     sizes: ['M', 'L', 'XL'],
     colors: ['Green', 'White'],
   },
@@ -29,7 +46,7 @@ export const Tshirts: Tshirt[] = [
     id: 4,
     name: 'Yellow T-shirt',
     price: 14.99,
-    image: '/yellow-tshirt.jpg',
+    image: Yellow,
     sizes: ['S', 'L', 'XL'],
     colors: ['Yellow', 'Black'],
   },
@@ -37,7 +54,7 @@ export const Tshirts: Tshirt[] = [
     id: 5,
     name: 'Purple T-shirt',
     price: 17.99,
-    image: '/purple-tshirt.jpg',
+    image: Purple,
     sizes: ['S', 'M', 'L'],
     colors: ['Purple', 'White'],
   },
@@ -45,7 +62,7 @@ export const Tshirts: Tshirt[] = [
     id: 6,
     name: 'Orange T-shirt',
     price: 13.99,
-    image: '/orange-tshirt.jpg',
+    image: Orange,
     sizes: ['M', 'L', 'XL'],
     colors: ['Orange', 'Black'],
   },
@@ -53,7 +70,7 @@ export const Tshirts: Tshirt[] = [
     id: 7,
     name: 'Pink T-shirt',
     price: 16.99,
-    image: '/pink-tshirt.jpg',
+    image: Pink,
     sizes: ['S', 'M', 'XL'],
     colors: ['Pink', 'White'],
   },
@@ -61,7 +78,7 @@ export const Tshirts: Tshirt[] = [
     id: 8,
     name: 'Brown T-shirt',
     price: 19.99,
-    image: '/brown-tshirt.jpg',
+    image: Brown,
     sizes: ['S', 'L', 'XL'],
     colors: ['Brown', 'Black'],
   },
@@ -69,7 +86,7 @@ export const Tshirts: Tshirt[] = [
     id: 9,
     name: 'Gray T-shirt',
     price: 11.99,
-    image: '/gray-tshirt.jpg',
+    image: Gray,
     sizes: ['S', 'M', 'XL'],
     colors: ['Gray', 'White'],
   },
@@ -77,7 +94,7 @@ export const Tshirts: Tshirt[] = [
     id: 10,
     name: 'Cyan T-shirt',
     price: 21.99,
-    image: '/cyan-tshirt.jpg',
+    image: Cyan,
     sizes: ['M', 'L'],
     colors: ['Cyan', 'Black'],
   },
@@ -85,7 +102,7 @@ export const Tshirts: Tshirt[] = [
     id: 11,
     name: 'Magenta T-shirt',
     price: 18.99,
-    image: '/magenta-tshirt.jpg',
+    image: Magenta,
     sizes: ['S', 'L'],
     colors: ['Magenta', 'White'],
   },
@@ -93,7 +110,7 @@ export const Tshirts: Tshirt[] = [
     id: 12,
     name: 'Teal T-shirt',
     price: 16.99,
-    image: '/teal-tshirt.jpg',
+    image: Teal,
     sizes: ['S', 'XL'],
     colors: ['Teal', 'Black'],
   },
@@ -101,7 +118,7 @@ export const Tshirts: Tshirt[] = [
     id: 13,
     name: 'Lime T-shirt',
     price: 14.99,
-    image: '/lime-tshirt.jpg',
+    image: Lime,
     sizes: ['M', 'L', 'XL'],
     colors: ['Lime', 'White'],
   },
@@ -109,7 +126,7 @@ export const Tshirts: Tshirt[] = [
     id: 14,
     name: 'Maroon T-shirt',
     price: 17.99,
-    image: '/maroon-tshirt.jpg',
+    image: Maroon,
     sizes: ['S', 'M'],
     colors: ['Maroon', 'Black'],
   },
@@ -117,7 +134,7 @@ export const Tshirts: Tshirt[] = [
     id: 15,
     name: 'Navy T-shirt',
     price: 13.99,
-    image: '/navy-tshirt.jpg',
+    image: Navy,
     sizes: ['S', 'L'],
     colors: ['Navy', 'White'],
   },
@@ -125,7 +142,7 @@ export const Tshirts: Tshirt[] = [
     id: 16,
     name: 'Olive T-shirt',
     price: 12.99,
-    image: '/olive-tshirt.jpg',
+    image: Olive,
     sizes: ['M', 'XL'],
     colors: ['Olive', 'Black'],
   },
